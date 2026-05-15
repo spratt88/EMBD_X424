@@ -1,0 +1,20 @@
+I am writing a neural network from scratch using only the python and NumPy frameworks.  I have a random dataset for X and y, which is called the "CheckerBoard Dataset".  Here is the architecture:
+Architecture:
+
+Input: 2 neurons (x, y)
+Hidden: YOU DECIDE
+Output: 1 neuron (sigmoid)
+My parameters have been initialized with the following method:
+# Initialize weights
+def init_params(input_size, hidden_size, output_size):
+    W1 = np.random.randn(input_size, hidden_size)
+    b1 = np.zeros((1, hidden_size))
+    W2 = np.random.randn(hidden_size, output_size)
+    b2 = np.zeros((1, output_size))
+    return W1, b1, W2, b2
+
+And here is my sigmoid activation function:
+def sigmoid(x):
+    return 1 / (1 + np.exp(-x))
+def sigmoid_derivative(x):
+    return x * (1 - x)

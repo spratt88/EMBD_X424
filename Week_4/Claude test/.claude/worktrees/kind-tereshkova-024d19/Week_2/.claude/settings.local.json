@@ -1,0 +1,22 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c \"import json; nb=json.load\\(open\\('checkerboard_nn_assignment.ipynb'\\)\\); [print\\(i, c['id'], repr\\(''.join\\(c.get\\('source',''\\)[:60]\\)\\)\\) for i,c in enumerate\\(nb['cells']\\)]\")",
+      "Bash(python -c \"import json; nb=json.load\\(open\\('checkerboard_nn_assignment.ipynb', encoding='utf-8'\\)\\); [print\\(i, c['id'], repr\\(''.join\\(c.get\\('source',''\\)[:60]\\)\\)\\) for i,c in enumerate\\(nb['cells']\\)]\")",
+      "Bash(python -)",
+      "Bash(jupyter nbconvert *)",
+      "Bash(python3 -c \"import numpy\")",
+      "Bash(python -c \"import numpy\")",
+      "Bash(where python *)",
+      "Bash(\"C:\\\\Program Files\\\\Python312\\\\python.exe\" -c \"import numpy; print\\('ok'\\)\")",
+      "Bash(\"C:\\\\Program Files\\\\Python313\\\\python.exe\" -c \"import numpy; print\\('ok'\\)\")",
+      "Bash(where jupyter *)",
+      "Bash(where python3.11)",
+      "Read(//c/Users/spratt/AppData/Local/Programs//**)",
+      "Read(//c/Users/spratt/miniconda3/bin/**)",
+      "Read(//c/Users/spratt/anaconda3/**)",
+      "Bash(\"/c/Users/spratt/AppData/Local/JetBrains/PyCharm2025.2/demo/PyCharmLearningProject/.venv/Scripts/python.exe\" -c \"import numpy; print\\('numpy ok'\\)\")",
+      "Bash(python -c ' *)"
+    ]
+  }
+}
